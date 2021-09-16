@@ -1,1808 +1,414 @@
+Unity Editor version:    2020.3.17f1 (a4537701e4ab)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1323)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16318 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity Builds\2020.3.17f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Repos/Gabe/Survival Crossing
+/Users/gabe/Unity/Rocha Games/Survival Crossing
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49632
-Successfully changed project path to: D:/Repos/Gabe/Survival Crossing
-D:/Repos/Gabe/Survival Crossing
+50972
+Successfully changed project path to: /Users/gabe/Unity/Rocha Games/Survival Crossing
+/Users/gabe/Unity/Rocha Games/Survival Crossing
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity Builds/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Repos/Gabe/Survival Crossing/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gabe/Unity/Rocha Games/Survival Crossing/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
-    Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.7196
+2021-09-15 21:53:13.460 Unity[29233:2265055] Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
+2021-09-15 21:53:13.460 Unity[29233:2265055] Metal devices available: 2
+2021-09-15 21:53:13.460 Unity[29233:2265055] 0: NVIDIA GeForce GT 650M (high power)
+2021-09-15 21:53:13.460 Unity[29233:2265055] 1: Intel HD Graphics 4000 (low power)
+2021-09-15 21:53:13.461 Unity[29233:2265055] Using device NVIDIA GeForce GT 650M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 650M
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity Builds/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity Builds/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity Builds/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56233
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity Builds/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002568 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.17f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003121 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.82 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.050 seconds
+- Completed reload, in  2.715 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2051ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (2716ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (688ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
+			SetupTypeCache (270ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003771 seconds.
+Registered in 0.006790 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.99 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.110 seconds
+- Completed reload, in  2.565 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2111ms)
-		BeginReloadAssembly (250ms)
+	ReloadAssembly (2567ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1767ms)
-			LoadAssemblies (165ms)
-			RebuildTransferFunctionScriptingTraits (5ms)
-			SetupTypeCache (417ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (916ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (661ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3405.
-Total: 3.342500 ms (FindLiveObjects: 0.472300 ms CreateObjectMapping: 0.154100 ms MarkObjects: 2.639000 ms  DeleteObjects: 0.076000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/_Game Name/Scripts/State Machines/Player States
-  artifactKey: Guid(dc89d33f89f60894d9d7912c15cbaca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game Name/Scripts/State Machines/Player States using Guid(dc89d33f89f60894d9d7912c15cbaca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1813fcf8ed6d218396f796a4f3e237') in 0.005391 seconds 
-  Import took 0.010160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.884513 seconds.
-  path: Assets/_Game Name/Scripts/State Machines/Player States/PlayerStateAttackingClosestEnemy.cs
-  artifactKey: Guid(d572ef7849b90bf4a8c62dc9c92a0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game Name/Scripts/State Machines/Player States/PlayerStateAttackingClosestEnemy.cs using Guid(d572ef7849b90bf4a8c62dc9c92a0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fd9adb850209bd8c88f473cac54eb0') in 0.033834 seconds 
-  Import took 0.039681 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004156 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.207 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2208ms)
-		BeginReloadAssembly (176ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1927ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2224ms)
+			LoadAssemblies (180ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (506ms)
+			SetupTypeCache (569ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (123ms)
-			SetupLoadedEditorAssemblies (873ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (1041ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (238ms)
-				ProcessInitializeOnLoadAttributes (607ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2882 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.6 MB.
-System memory in use after: 124.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3406.
-Total: 5.172600 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.143900 ms MarkObjects: 4.724500 ms  DeleteObjects: 0.030400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.190608 seconds.
-  path: Assets/_Game Name/Scripts/State Machines
-  artifactKey: Guid(5b5b1d4aed793e84c8e39f46a73c2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game Name/Scripts/State Machines using Guid(5b5b1d4aed793e84c8e39f46a73c2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e66ffcc263b5a137e42cd3b0eb90bf0') in 0.004686 seconds 
-  Import took 0.008866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008603 seconds.
-  path: Assets/_Game Name/Scripts/State Machines
-  artifactKey: Guid(5b5b1d4aed793e84c8e39f46a73c2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game Name/Scripts/State Machines using Guid(5b5b1d4aed793e84c8e39f46a73c2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e66ffcc263b5a137e42cd3b0eb90bf0') in 0.001543 seconds 
-  Import took 0.005885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.972287 seconds.
-  path: Assets/_Game Name/Scripts
-  artifactKey: Guid(0b4a7233fb891394f94282ff165d8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game Name/Scripts using Guid(0b4a7233fb891394f94282ff165d8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707fec6c05cf5f5bde09000cd614b187') in 0.001846 seconds 
-  Import took 0.006385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.129136 seconds.
-  path: Assets/_Game Name/Scenes/Main.unity
-  artifactKey: Guid(55e2149e48bde7e4786c5b14ee2e43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game Name/Scenes/Main.unity using Guid(55e2149e48bde7e4786c5b14ee2e43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b318eb964e6e102d1875f544192f16') in 0.019164 seconds 
-  Import took 0.023696 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003127 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.682 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1683ms)
-		BeginReloadAssembly (205ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (1413ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (670ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (179ms)
-				ProcessInitializeOnLoadAttributes (467ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2881 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.5 MB.
-System memory in use after: 126.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3408.
-Total: 3.869300 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.151600 ms MarkObjects: 3.422400 ms  DeleteObjects: 0.023700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 210.628162 seconds.
-  path: Assets/Prototype Textures
-  artifactKey: Guid(859b628ffbc51564ca2f63ecb337b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prototype Textures using Guid(859b628ffbc51564ca2f63ecb337b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65721839865ca75189d732f8dacbeedf') in 0.006657 seconds 
-  Import took 0.012974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.441163 seconds.
-  path: Assets/_Survival Crossing
-  artifactKey: Guid(8e61f9b5dbcf01b43b4fae97ae8c01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing using Guid(8e61f9b5dbcf01b43b4fae97ae8c01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786298eaa7747c041c79346f15767bec') in 0.002905 seconds 
-  Import took 0.008307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.129477 seconds.
-  path: Assets/_Game Name
-  artifactKey: Guid(c8d7d7ada0c7020438e16dd47a72e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game Name using Guid(c8d7d7ada0c7020438e16dd47a72e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccff8a919932f5cb5da284873d712d4') in 0.001963 seconds 
-  Import took 0.007039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.170003 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001760 seconds 
-  Import took 0.006723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.009454 seconds.
-  path: Assets/_Survival Crossing/Animations
-  artifactKey: Guid(09f5a06b83745ba4b99800cb329386d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Animations using Guid(09f5a06b83745ba4b99800cb329386d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4361332c42de5e94af7312b090f3c2e') in 0.001775 seconds 
-  Import took 0.006257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.420160 seconds.
-  path: Assets/_Survival Crossing/Materials
-  artifactKey: Guid(6c8dbdefa6f6ce94484667e2cd40a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Materials using Guid(6c8dbdefa6f6ce94484667e2cd40a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d42c55d2d3a3d69404b981f7a81df1') in 0.002024 seconds 
-  Import took 0.006290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114533 seconds.
-  path: Assets/_Survival Crossing/Prefabs
-  artifactKey: Guid(2fa2abebcda985141969daf9c3ef8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs using Guid(2fa2abebcda985141969daf9c3ef8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbe69eda527173467ed348b6a3c7e9e') in 0.001567 seconds 
-  Import took 0.006142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.140607 seconds.
-  path: Assets/_Survival Crossing/Scenes
-  artifactKey: Guid(f39d8be01ec845b46a985408a62a3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Scenes using Guid(f39d8be01ec845b46a985408a62a3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9b9855e0ba6d0d87f590962591ebf7') in 0.001965 seconds 
-  Import took 0.006521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.611244 seconds.
-  path: Assets/_Survival Crossing/Sound and Music
-  artifactKey: Guid(455f7f8d38cd2c6458ccc59f0b29dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Sound and Music using Guid(455f7f8d38cd2c6458ccc59f0b29dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d85fe3da12becc5a42d5b5344d8e876') in 0.002496 seconds 
-  Import took 0.015243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/_Survival Crossing/Sound and Music
-  artifactKey: Guid(455f7f8d38cd2c6458ccc59f0b29dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Sound and Music using Guid(455f7f8d38cd2c6458ccc59f0b29dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d85fe3da12becc5a42d5b5344d8e876') in 0.001819 seconds 
-  Import took 0.009108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.524354 seconds.
-  path: Assets/_Survival Crossing/Sprites
-  artifactKey: Guid(77eea3e1c3f9e814781eca9b988cbc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Sprites using Guid(77eea3e1c3f9e814781eca9b988cbc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8f59e92331a06a4b8739c2066b5716') in 0.001907 seconds 
-  Import took 0.007425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.224846 seconds.
-  path: Assets/_Survival Crossing/Temp
-  artifactKey: Guid(548f5ddee1869984390d9bbfddacfa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Temp using Guid(548f5ddee1869984390d9bbfddacfa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e90f48e7f62f42636c56fa8e77cdbe') in 0.002720 seconds 
-  Import took 0.008092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.746145 seconds.
-  path: Assets/_Survival Crossing/Temp/Nature Kit
-  artifactKey: Guid(c984631794bf8fe498e83c06b43e1dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Temp/Nature Kit using Guid(c984631794bf8fe498e83c06b43e1dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde774558b56bfcd26c82b43d312b370') in 0.002189 seconds 
-  Import took 0.010833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003245 seconds.
-  path: Assets/_Survival Crossing/Temp/Nature Kit
-  artifactKey: Guid(c984631794bf8fe498e83c06b43e1dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Temp/Nature Kit using Guid(c984631794bf8fe498e83c06b43e1dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde774558b56bfcd26c82b43d312b370') in 0.001924 seconds 
-  Import took 0.008188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.166885 seconds.
-  path: Assets/_Survival Crossing/Temp/animatedCharacters1.unitypackage
-  artifactKey: Guid(74bc002fd7fff944eb05e8b5dedf765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Temp/animatedCharacters1.unitypackage using Guid(74bc002fd7fff944eb05e8b5dedf765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f5d6d77c25e1775f58d5395d927751') in 0.041463 seconds 
-  Import took 0.046261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.771678 seconds.
-  path: Assets/_Survival Crossing/Animations/Characters
-  artifactKey: Guid(2904a96136df1b547992b24676e9b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Animations/Characters using Guid(2904a96136df1b547992b24676e9b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f26c0fb261486ed5c8de530c1a44b1') in 0.001906 seconds 
-  Import took 0.007145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.113335 seconds.
-  path: Assets/Animated Character 1/Animations
-  artifactKey: Guid(687ea07158e44004fbda89a505bf3e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated Character 1/Animations using Guid(687ea07158e44004fbda89a505bf3e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f351b615627809352aaefa60c1472c67') in 0.001553 seconds 
-  Import took 0.006372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.036205 seconds.
-  path: Assets/Animated Character 1/Animations/idle.fbx
-  artifactKey: Guid(86a1903d4d55f514eba79f78c733e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated Character 1/Animations/idle.fbx using Guid(86a1903d4d55f514eba79f78c733e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99ee1c9f3b71ea824321ca265a5803c') in 0.029425 seconds 
-  Import took 0.034502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.894648 seconds.
-  path: Assets/Animated Character 1/Models/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated Character 1/Models/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46853685f3d4b8f4e1f62bd8c4130397') in 0.517359 seconds 
-  Import took 0.522210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.695079 seconds.
-  path: Assets/Animated Character 1/Models
-  artifactKey: Guid(4d534a3702b4855419e08107a2ef8194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated Character 1/Models using Guid(4d534a3702b4855419e08107a2ef8194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cdb15b39844ed8bf12b4289ee18ae9') in 0.002068 seconds 
-  Import took 0.007028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.417492 seconds.
-  path: Assets/_Survival Crossing/Models
-  artifactKey: Guid(ca21cf6b43c24a94a89c4a9b3927f83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models using Guid(ca21cf6b43c24a94a89c4a9b3927f83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903c817abc359c604d740f2a702be239') in 0.001701 seconds 
-  Import took 0.006595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.892815 seconds.
-  path: Assets/_Survival Crossing/Models/Characters
-  artifactKey: Guid(529c3301fcf4b2b418bbb3547e30c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters using Guid(529c3301fcf4b2b418bbb3547e30c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e232dd60f90824d5f0a5ce6097ecd6bb') in 0.001502 seconds 
-  Import took 0.006685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.298348 seconds.
-  path: Assets/Animated Character 1/Models/Materials
-  artifactKey: Guid(4de982d388d94e74f93a609f87bbe9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated Character 1/Models/Materials using Guid(4de982d388d94e74f93a609f87bbe9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc445f618b2da3d9a9cc4ca6504cce4') in 0.001894 seconds 
-  Import took 0.006706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.490399 seconds.
-  path: Assets/Animated Character 1
-  artifactKey: Guid(343518e16ae7f6c4d96398b8956522f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated Character 1 using Guid(343518e16ae7f6c4d96398b8956522f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9f56a5921bbf79881848786f41d8d') in 0.002185 seconds 
-  Import took 0.006844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.057054 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Skins
-  artifactKey: Guid(7896cc199502b3845bb7eceefbb9e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Skins using Guid(7896cc199502b3845bb7eceefbb9e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e095452c09e6d1ff9f30857d7e56e01') in 0.001973 seconds 
-  Import took 0.007084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.965669 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Skins/survivorFemaleA.png
-  artifactKey: Guid(4f877fc6c4835ff40bc3530ee16e0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Skins/survivorFemaleA.png using Guid(4f877fc6c4835ff40bc3530ee16e0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594268cbebc77ada4de45e33760cc24c') in 0.033965 seconds 
-  Import took 0.042643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.190952 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Skins/survivorMaleB.png
-  artifactKey: Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Skins/survivorMaleB.png using Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892dbc5806962d8a6494892a91a4691c') in 0.017865 seconds 
-  Import took 0.023502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003312 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Skins/survivorMaleB.png
-  artifactKey: Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Skins/survivorMaleB.png using Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892dbc5806962d8a6494892a91a4691c') in 0.013752 seconds 
-  Import took 0.018642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.276970 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Skins/zombieA.png
-  artifactKey: Guid(dc3718fcd3416294687ae1560765ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Skins/zombieA.png using Guid(dc3718fcd3416294687ae1560765ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccfa75217c93f64d87cc6ecc390d08c') in 0.022013 seconds 
-  Import took 0.026762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.216036 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Skins/zombieC.png
-  artifactKey: Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Skins/zombieC.png using Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2399fa87dec0d0d9df898389758f83ee') in 0.024893 seconds 
-  Import took 0.029363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000771 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Skins/zombieC.png
-  artifactKey: Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Skins/zombieC.png using Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2399fa87dec0d0d9df898389758f83ee') in 0.010026 seconds 
-  Import took 0.016287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.766043 seconds.
-  path: Assets/_Survival Crossing/Temp/animated-characters-1.zip
-  artifactKey: Guid(3b212aa94f2e8884b9d288b0381fdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Temp/animated-characters-1.zip using Guid(3b212aa94f2e8884b9d288b0381fdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c44ce9c1bfe8599727fa07418ca2758') in 0.018944 seconds 
-  Import took 0.024128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.953084 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx
-  artifactKey: Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx using Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3ed1da361fc5db011804c24d6f830c') in 0.056688 seconds 
-  Import took 0.061721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.511224 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bed_floor.fbx
-  artifactKey: Guid(762fa12c1c232c2469a41416d0af5c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bed_floor.fbx using Guid(762fa12c1c232c2469a41416d0af5c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708fd34d08d3708faaba2874bf9e8b25') in 0.037449 seconds 
-  Import took 0.042017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.282507 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_stone.fbx
-  artifactKey: Guid(c835fcdbcbfd70b4a98e1c7ef36c3b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_stone.fbx using Guid(c835fcdbcbfd70b4a98e1c7ef36c3b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6247210a3e788b958b9207d0b7f321') in 0.023448 seconds 
-  Import took 0.028564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_stone.fbx
-  artifactKey: Guid(c835fcdbcbfd70b4a98e1c7ef36c3b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_stone.fbx using Guid(c835fcdbcbfd70b4a98e1c7ef36c3b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6247210a3e788b958b9207d0b7f321') in 0.023541 seconds 
-  Import took 0.028461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099515 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_stoneRound.fbx
-  artifactKey: Guid(8cf73ec85ee8a584fb1b43eb62e40ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_stoneRound.fbx using Guid(8cf73ec85ee8a584fb1b43eb62e40ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1babecb11325f97cc73d3191c5e831f8') in 0.029707 seconds 
-  Import took 0.039153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.143910 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_wood.fbx
-  artifactKey: Guid(e090039164a686a43b1edc1ecd680169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_wood.fbx using Guid(e090039164a686a43b1edc1ecd680169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2122c9a9a032917d2a2d69d0a66c38') in 0.079562 seconds 
-  Import took 0.088677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072859 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_woodRound.fbx
-  artifactKey: Guid(4c52006e7e1e6744fb203864838ca182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_center_woodRound.fbx using Guid(4c52006e7e1e6744fb203864838ca182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6935f41126a4da9b7531d4f05d6dba49') in 0.035570 seconds 
-  Import took 0.041757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.113811 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_stone.fbx
-  artifactKey: Guid(9bbb2dcdb6efab941b1b9d1499dca112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_stone.fbx using Guid(9bbb2dcdb6efab941b1b9d1499dca112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815abffdbab12d4b9001647fc1d90ed9') in 0.025339 seconds 
-  Import took 0.030412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.160717 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_woodRound.fbx
-  artifactKey: Guid(57f7cb69ef675f74d935cea1751309f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_woodRound.fbx using Guid(57f7cb69ef675f74d935cea1751309f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50ef8b6b43204f6491c05ff6d220380') in 0.073813 seconds 
-  Import took 0.078549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.444778 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_stepsCorner_stone.fbx
-  artifactKey: Guid(d69d619849302d943ba9653e03a8ff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_stepsCorner_stone.fbx using Guid(d69d619849302d943ba9653e03a8ff93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eff2003de5b072e5920d42b57e8bda') in 0.053918 seconds 
-  Import took 0.059858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.289674 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_stepsCorner_rock.fbx
-  artifactKey: Guid(032812943912ca746898ecbfd8a9caeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_stepsCorner_rock.fbx using Guid(032812943912ca746898ecbfd8a9caeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dbc082a8fe59beca0bda98e0cada0e') in 0.064787 seconds 
-  Import took 0.069835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069816 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_steps_stone.fbx
-  artifactKey: Guid(25074a4a490df734589b94e7a72570d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_steps_stone.fbx using Guid(25074a4a490df734589b94e7a72570d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b338f468f51f2559ac41b23ddfe69a') in 0.048746 seconds 
-  Import took 0.054738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114891 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_steps_rock.fbx
-  artifactKey: Guid(31726dbe17d1d094190deade826811a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_steps_rock.fbx using Guid(31726dbe17d1d094190deade826811a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0588ccdff0b83a1d84ec701185d4c81b') in 0.032354 seconds 
-  Import took 0.037333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.125583 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_rock.fbx
-  artifactKey: Guid(b4074c8b95c3dfd4eaf4289990d81e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_rock.fbx using Guid(b4074c8b95c3dfd4eaf4289990d81e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ab3a3f51c7e7e63503de28776ace4e') in 0.022187 seconds 
-  Import took 0.027184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.120641 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_large_stone.fbx
-  artifactKey: Guid(0dd0875604e9558458e7ecfbfee65411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_large_stone.fbx using Guid(0dd0875604e9558458e7ecfbfee65411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad40afd66e2dc491e94c26ce508416d') in 0.022024 seconds 
-  Import took 0.031710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.117163 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_large_rock.fbx
-  artifactKey: Guid(de7e887f9dea1ec4ab59e65de250359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_large_rock.fbx using Guid(de7e887f9dea1ec4ab59e65de250359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc1518985b73ee29f7dda50d401fa6a') in 0.018365 seconds 
-  Import took 0.023392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003626 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_large_rock.fbx
-  artifactKey: Guid(de7e887f9dea1ec4ab59e65de250359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_large_rock.fbx using Guid(de7e887f9dea1ec4ab59e65de250359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc1518985b73ee29f7dda50d401fa6a') in 0.018596 seconds 
-  Import took 0.024818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099883 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCornerInner_stone.fbx
-  artifactKey: Guid(a98dcd9c0e61f3f42aab6799c1737da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCornerInner_stone.fbx using Guid(a98dcd9c0e61f3f42aab6799c1737da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf219edb5448a30613d6c4e87883037') in 0.035708 seconds 
-  Import took 0.040740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.111862 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCornerInner_rock.fbx
-  artifactKey: Guid(21ea09e9eb98c0543a9e09c31b215feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCornerInner_rock.fbx using Guid(21ea09e9eb98c0543a9e09c31b215feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0eaa25931a8da85b4b67889b83caa0') in 0.030776 seconds 
-  Import took 0.037442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.117673 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCorner_stone.fbx
-  artifactKey: Guid(b487bb92d80e18146a4950e62ccbf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCorner_stone.fbx using Guid(b487bb92d80e18146a4950e62ccbf107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a340dcf039b16508674ce6b5731c64') in 0.028239 seconds 
-  Import took 0.033392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.125794 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCorner_rock.fbx
-  artifactKey: Guid(4d473e51c07e73646843051d5e87a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_halfCorner_rock.fbx using Guid(4d473e51c07e73646843051d5e87a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80cacaf52fc441cba26cbe1e9a66991') in 0.039116 seconds 
-  Import took 0.048652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.110988 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_half_stone.fbx
-  artifactKey: Guid(367138866899c2847a7da6c8f6e441ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_half_stone.fbx using Guid(367138866899c2847a7da6c8f6e441ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5455abc3228db985537038baee4876') in 0.028531 seconds 
-  Import took 0.033106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.129548 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_half_rock.fbx
-  artifactKey: Guid(cb05f5188291fae4e89e177e0890b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_half_rock.fbx using Guid(cb05f5188291fae4e89e177e0890b112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d745aa45b70183aeeff8c40b17783c') in 0.027232 seconds 
-  Import took 0.032917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.484178 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/crops_leafsStageB.fbx
-  artifactKey: Guid(bb6838c2bd536914989f5cc1352bf154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/crops_leafsStageB.fbx using Guid(bb6838c2bd536914989f5cc1352bf154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0713bd97263dce6279168d6e7c1ba95a') in 0.026583 seconds 
-  Import took 0.033373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.439864 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/crops_leafsStageA.fbx
-  artifactKey: Guid(575b66c40a89715438ac0d4e990c0489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/crops_leafsStageA.fbx using Guid(575b66c40a89715438ac0d4e990c0489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538b3af222adfc10ace4dde7edf5a8e6') in 0.042468 seconds 
-  Import took 0.048088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.109963 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtSingle.fbx
-  artifactKey: Guid(1b6f90c7129facf45ac50533dd6c20c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtSingle.fbx using Guid(1b6f90c7129facf45ac50533dd6c20c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36764ab259db47ff018966e3eb972a5b') in 0.049528 seconds 
-  Import took 0.055131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082084 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtRowEnd.fbx
-  artifactKey: Guid(5926856cbf66f234ea915beec238a737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtRowEnd.fbx using Guid(5926856cbf66f234ea915beec238a737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a539a28886592879a1ed769444b32477') in 0.023925 seconds 
-  Import took 0.032814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.146732 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtRowCorner.fbx
-  artifactKey: Guid(2f45c60529ff5d241b916d1cc9eca7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtRowCorner.fbx using Guid(2f45c60529ff5d241b916d1cc9eca7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc85ee726a7c3a8e46107e8c79389d5') in 0.027490 seconds 
-  Import took 0.032619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.129575 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtRow.fbx
-  artifactKey: Guid(c56dbb79c4a86244b8bfdedf4aea80a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/crops_dirtRow.fbx using Guid(c56dbb79c4a86244b8bfdedf4aea80a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe39cec76b0986bee046a82330871c5') in 0.036414 seconds 
-  Import took 0.044184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.129967 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/grass_large.fbx
-  artifactKey: Guid(1ef26e1faa9253240921941a019b9ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/grass_large.fbx using Guid(1ef26e1faa9253240921941a019b9ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6368bdc4163a03e1da3bebfa1f0f8002') in 0.056728 seconds 
-  Import took 0.061485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.701417 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/grass.fbx
-  artifactKey: Guid(cac7c2ea1fd0c7947a46dccf9995a220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/grass.fbx using Guid(cac7c2ea1fd0c7947a46dccf9995a220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcea33d9e70c35758a5c3a28eaea2ada') in 0.041890 seconds 
-  Import took 0.046862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.331219 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/grass_leafs.fbx
-  artifactKey: Guid(8a313f58c546b8842b27bd9c9d87e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/grass_leafs.fbx using Guid(8a313f58c546b8842b27bd9c9d87e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f066054d1df643b43e6f710fd2715eee') in 0.027092 seconds 
-  Import took 0.034344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.319599 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/grass_leafsLarge.fbx
-  artifactKey: Guid(08ed96b502ab4a044a36861dcc717237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/grass_leafsLarge.fbx using Guid(08ed96b502ab4a044a36861dcc717237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2468c9fc06dd4b3f02fa84a30e29269e') in 0.019019 seconds 
-  Import took 0.024508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.855630 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_grass.fbx
-  artifactKey: Guid(19f1f07f05ef47d4f8153640fe40f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_grass.fbx using Guid(19f1f07f05ef47d4f8153640fe40f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f694edc8d6b37a7277854d6e1688a0c') in 0.020087 seconds 
-  Import took 0.025492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.440855 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBend.fbx
-  artifactKey: Guid(28fa6ec8979c9ad41b80a79449e93274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBend.fbx using Guid(28fa6ec8979c9ad41b80a79449e93274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a123f6fb5528125b9938b44c86276ef') in 0.035266 seconds 
-  Import took 0.041052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.523016 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_stoneRound.fbx
-  artifactKey: Guid(3b0e26dc5f433f946a302e6338d080c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_stoneRound.fbx using Guid(3b0e26dc5f433f946a302e6338d080c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b822b8582ba67dd1cc37c5b1754d18') in 0.027639 seconds 
-  Import took 0.032851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097109 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_wood.fbx
-  artifactKey: Guid(cf34c3c85cbe4724b9dea37a124c5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_side_wood.fbx using Guid(cf34c3c85cbe4724b9dea37a124c5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67de74bd051633a9ef6f6894bc0d084') in 0.093640 seconds 
-  Import took 0.102406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.201251 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stone.fbx
-  artifactKey: Guid(457f42befdd902743845c959f2cf6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stone.fbx using Guid(457f42befdd902743845c959f2cf6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aefdd8fb511c95988a7b27e75b579c6') in 0.025305 seconds 
-  Import took 0.030402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stone.fbx
-  artifactKey: Guid(457f42befdd902743845c959f2cf6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stone.fbx using Guid(457f42befdd902743845c959f2cf6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aefdd8fb511c95988a7b27e75b579c6') in 0.023557 seconds 
-  Import took 0.029970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095472 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stoneNarrow.fbx
-  artifactKey: Guid(07f476721e333f24dafbd2f4f09cd77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stoneNarrow.fbx using Guid(07f476721e333f24dafbd2f4f09cd77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b430f205cfcd29d6491a7c0d564aa5d') in 0.025969 seconds 
-  Import took 0.031003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102872 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stoneRound.fbx
-  artifactKey: Guid(ce31c9f964b5d9b4db1bc50e6a4ee925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stoneRound.fbx using Guid(ce31c9f964b5d9b4db1bc50e6a4ee925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fbc1ee3828b4b56419b1788326af09') in 0.030894 seconds 
-  Import took 0.035760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088107 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stoneRoundNarrow.fbx
-  artifactKey: Guid(a5a778c8d707bfa4694eb6a51779abf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_stoneRoundNarrow.fbx using Guid(a5a778c8d707bfa4694eb6a51779abf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b0e0440edd1be3a1c0d8f9115db69a') in 0.027590 seconds 
-  Import took 0.033062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099893 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_wood.fbx
-  artifactKey: Guid(001c0ce5d6bddc94dbbd4a2a3a4eccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_wood.fbx using Guid(001c0ce5d6bddc94dbbd4a2a3a4eccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e45960bf91545b83aec85c46bf1ca2b') in 0.039900 seconds 
-  Import took 0.052733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093592 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_woodNarrow.fbx
-  artifactKey: Guid(a00b3ca4afadb95498c6bb516cdfadff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_woodNarrow.fbx using Guid(a00b3ca4afadb95498c6bb516cdfadff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6982f60805ceb42c4b354cde3bd6b1') in 0.032972 seconds 
-  Import took 0.038522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.109772 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_woodRound.fbx
-  artifactKey: Guid(f14d0f4c373688748b1e70de6ce8225b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_woodRound.fbx using Guid(f14d0f4c373688748b1e70de6ce8225b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb7d11e9a9c6a71046a22aac0b2c0f3') in 0.036964 seconds 
-  Import took 0.042117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090254 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_woodRoundNarrow.fbx
-  artifactKey: Guid(3e14e3b81eed05545aa55b8a26be5b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bridge_woodRoundNarrow.fbx using Guid(3e14e3b81eed05545aa55b8a26be5b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38fb356ddf07a959b1075845a80394c') in 0.040819 seconds 
-  Import took 0.046011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088334 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_short.fbx
-  artifactKey: Guid(cec5b3bbd0a99b44095b630bc2f7eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_short.fbx using Guid(cec5b3bbd0a99b44095b630bc2f7eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd783d3148d6b68b655a7dc36040bbbe0') in 0.046395 seconds 
-  Import took 0.052070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082532 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_tall.fbx
-  artifactKey: Guid(da0c3d830677a8341b71173003c84c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_tall.fbx using Guid(da0c3d830677a8341b71173003c84c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc31f59d406d3ba1eb27d06819d2704') in 0.041794 seconds 
-  Import took 0.046735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102268 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/campfire_bricks.fbx
-  artifactKey: Guid(9b298a2033b9aa64d972e6c8c3d2ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/campfire_bricks.fbx using Guid(9b298a2033b9aa64d972e6c8c3d2ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7012a0eb303b377296e4b3a092c2a652') in 0.017351 seconds 
-  Import took 0.022367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/campfire_bricks.fbx
-  artifactKey: Guid(9b298a2033b9aa64d972e6c8c3d2ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/campfire_bricks.fbx using Guid(9b298a2033b9aa64d972e6c8c3d2ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7012a0eb303b377296e4b3a092c2a652') in 0.015268 seconds 
-  Import took 0.022690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.534655 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_flatShort.fbx
-  artifactKey: Guid(74b300374ff18a746bccf65ec304e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_flatShort.fbx using Guid(74b300374ff18a746bccf65ec304e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb48d230ad4da6dc98b29075a4ac16c') in 0.039818 seconds 
-  Import took 0.045416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.424650 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushTriangle.fbx
-  artifactKey: Guid(29201664e61f44f44a25c4449d906d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushTriangle.fbx using Guid(29201664e61f44f44a25c4449d906d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceef72f62f477ab4dd254f4faef0d36') in 0.032858 seconds 
-  Import took 0.039911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.122281 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushSmall.fbx
-  artifactKey: Guid(c26a64a6c5bc93f41ba639967fc5403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushSmall.fbx using Guid(c26a64a6c5bc93f41ba639967fc5403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563ecf0bd93999c741540eb5f30e9ff0') in 0.020246 seconds 
-  Import took 0.026629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004174 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushSmall.fbx
-  artifactKey: Guid(c26a64a6c5bc93f41ba639967fc5403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushSmall.fbx using Guid(c26a64a6c5bc93f41ba639967fc5403f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563ecf0bd93999c741540eb5f30e9ff0') in 0.025337 seconds 
-  Import took 0.030644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090900 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushLargeTriangle.fbx
-  artifactKey: Guid(04d0b206773bf6e4f9be366a12fe5652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushLargeTriangle.fbx using Guid(04d0b206773bf6e4f9be366a12fe5652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb86ec2e0aa221afcbfd06f207da3c83') in 0.018347 seconds 
-  Import took 0.023713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushLargeTriangle.fbx
-  artifactKey: Guid(04d0b206773bf6e4f9be366a12fe5652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushLargeTriangle.fbx using Guid(04d0b206773bf6e4f9be366a12fe5652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb86ec2e0aa221afcbfd06f207da3c83') in 0.016762 seconds 
-  Import took 0.021752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.099404 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushLarge.fbx
-  artifactKey: Guid(a846eac38ac65db47990637ef45db02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushLarge.fbx using Guid(a846eac38ac65db47990637ef45db02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf2b0b5e3cd2513b90e16a63458af32') in 0.020022 seconds 
-  Import took 0.024874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.115233 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushDetailed.fbx
-  artifactKey: Guid(850a665159d46f842be64c7b3563d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bushDetailed.fbx using Guid(850a665159d46f842be64c7b3563d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3410afb33a141afc412a65f6fe734caa') in 0.020296 seconds 
-  Import took 0.025701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.211221 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bush.fbx
-  artifactKey: Guid(13f8255e2e7d0324ca300d16adad5269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/plant_bush.fbx using Guid(13f8255e2e7d0324ca300d16adad5269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b3485a65a3aa1fbaa8a3ca5218b5e') in 0.022124 seconds 
-  Import took 0.030908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096295 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/path_woodEnd.fbx
-  artifactKey: Guid(c9f0dae7cc07a364691eb26858df3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/path_woodEnd.fbx using Guid(c9f0dae7cc07a364691eb26858df3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a3ee0ffb50891192dacd8b11b54258') in 0.034214 seconds 
-  Import took 0.038932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.878619 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_default.fbx
-  artifactKey: Guid(d6d38751ea4bbe347aad53b24aab5d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_default.fbx using Guid(d6d38751ea4bbe347aad53b24aab5d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a7096081ad155ec6118abd4bbc1414') in 0.054906 seconds 
-  Import took 0.060112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.154566 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_cone_fall.fbx
-  artifactKey: Guid(55a58679214507941b577e0a4ec7f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_cone_fall.fbx using Guid(55a58679214507941b577e0a4ec7f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31a5860fc2d5c5e15212042b4e61c4a') in 0.027731 seconds 
-  Import took 0.032370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.404160 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks_dark.fbx
-  artifactKey: Guid(d9754fc39b4ffd24b86f72bbceb507c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks_dark.fbx using Guid(d9754fc39b4ffd24b86f72bbceb507c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0edfa00d1ff3609ff9003958b4b86c') in 0.034852 seconds 
-  Import took 0.040117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.222174 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks.fbx
-  artifactKey: Guid(3ff313d5479e46741a9ef4ac72841bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks.fbx using Guid(3ff313d5479e46741a9ef4ac72841bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8937203e8f6296425518dc4f9330d87') in 0.028657 seconds 
-  Import took 0.056046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.046676 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_cone.fbx
-  artifactKey: Guid(c37ee1959836e904cb5b24c84e1734d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_cone.fbx using Guid(c37ee1959836e904cb5b24c84e1734d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101582df687f59d4b427af78a84fafae') in 0.035128 seconds 
-  Import took 0.040354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.446319 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks_fall.fbx
-  artifactKey: Guid(908eaa4a5cb9ea74085c4e52275b02b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks_fall.fbx using Guid(908eaa4a5cb9ea74085c4e52275b02b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e96705340ca316a7e398d7d4b04e89') in 0.031058 seconds 
-  Import took 0.035722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.932315 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tent_detailedOpen.fbx
-  artifactKey: Guid(87bcc2dbf9d170145921d13a2a3f2150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tent_detailedOpen.fbx using Guid(87bcc2dbf9d170145921d13a2a3f2150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14406b1c6ddc6ba994e4f78641113e4') in 0.022874 seconds 
-  Import took 0.029173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.458898 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f9e9186a674a2a0e6caf7b4e014f2') in 0.070132 seconds 
-  Import took 0.076518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.441393 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineDefaultA.fbx
-  artifactKey: Guid(7428cfb2089c0564191745685034e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineDefaultA.fbx using Guid(7428cfb2089c0564191745685034e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870587fcdf8a1928bf86a77f7b17ad9d') in 0.030477 seconds 
-  Import took 0.035634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002273 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineDefaultA.fbx
-  artifactKey: Guid(7428cfb2089c0564191745685034e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineDefaultA.fbx using Guid(7428cfb2089c0564191745685034e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870587fcdf8a1928bf86a77f7b17ad9d') in 0.022902 seconds 
-  Import took 0.028214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.910397 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat_fall.fbx
-  artifactKey: Guid(23fbdcd827e94ff40a4b1098edd9dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat_fall.fbx using Guid(23fbdcd827e94ff40a4b1098edd9dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152020c0f007f93c5f11d89b2cf5b18e') in 0.027147 seconds 
-  Import took 0.032571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001928 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat_fall.fbx
-  artifactKey: Guid(23fbdcd827e94ff40a4b1098edd9dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat_fall.fbx using Guid(23fbdcd827e94ff40a4b1098edd9dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152020c0f007f93c5f11d89b2cf5b18e') in 0.037828 seconds 
-  Import took 0.042753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.341165 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat_darkh.fbx
-  artifactKey: Guid(82e1ceab9f6835945b708185e9ead462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat_darkh.fbx using Guid(82e1ceab9f6835945b708185e9ead462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249e03faa1fbcbbf495a3cf04e8dbdc8') in 0.022224 seconds 
-  Import took 0.028515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.220667 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat.fbx
-  artifactKey: Guid(55105eb39785ddd49860f530e867d804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat.fbx using Guid(55105eb39785ddd49860f530e867d804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1cd7156a925b0b26332fe3daf27b95') in 0.023043 seconds 
-  Import took 0.028427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008953 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat.fbx
-  artifactKey: Guid(55105eb39785ddd49860f530e867d804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_fat.fbx using Guid(55105eb39785ddd49860f530e867d804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1cd7156a925b0b26332fe3daf27b95') in 0.022573 seconds 
-  Import took 0.027360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.048695 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tent_smallOpen.fbx
-  artifactKey: Guid(9a62664cadb5592428c482071cb0337e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tent_smallOpen.fbx using Guid(9a62664cadb5592428c482071cb0337e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ab39ead9af7bf3836bc0545952c76d') in 0.041475 seconds 
-  Import took 0.046565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.822804 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_cone_dark.fbx
-  artifactKey: Guid(c5f1327ca3c9ec24994612a9f4133b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_cone_dark.fbx using Guid(c5f1327ca3c9ec24994612a9f4133b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaa390185be91eb3637f0cc85cd9acf') in 0.022307 seconds 
-  Import took 0.027711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.410201 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_detailed.fbx
-  artifactKey: Guid(eb6aee5ede2046a4b8dc29557068917b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_detailed.fbx using Guid(eb6aee5ede2046a4b8dc29557068917b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549db1bd6b7f2461e442c0dded5a0423') in 0.087568 seconds 
-  Import took 0.092918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.106003 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_thin_fall.fbx
-  artifactKey: Guid(7595c034cc282ff49a37a78e035ee181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_thin_fall.fbx using Guid(7595c034cc282ff49a37a78e035ee181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6699dcbdb2f790d2fdae86103136a43') in 0.089974 seconds 
-  Import took 0.095714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.490906 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/path_stone.fbx
-  artifactKey: Guid(a287fc32a8904504b84f002de6ff886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/path_stone.fbx using Guid(a287fc32a8904504b84f002de6ff886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f3c4c05fbee21c5e5bf84789eddc0c') in 0.041103 seconds 
-  Import took 0.047020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.414613 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_short.fbx
-  artifactKey: Guid(cec5b3bbd0a99b44095b630bc2f7eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_short.fbx using Guid(cec5b3bbd0a99b44095b630bc2f7eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75badd3333ee69cdfd4b24b0de4db7b0') in 0.039072 seconds 
-  Import took 0.046025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.982805 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx
-  artifactKey: Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx using Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3d677d1d1ba351c50166f29b22995c') in 0.074266 seconds 
-  Import took 0.086233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.553102 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx
-  artifactKey: Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx using Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87da57feb7ec3717d4cfabc95317cfed') in 0.044061 seconds 
-  Import took 0.049079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.749381 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx
-  artifactKey: Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx using Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795cfeb6d9cb12b26c50883d99275d18') in 0.059338 seconds 
-  Import took 0.064347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.491376 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks.fbx
-  artifactKey: Guid(3ff313d5479e46741a9ef4ac72841bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks.fbx using Guid(3ff313d5479e46741a9ef4ac72841bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17bc0c413679979fc030c6416e9a363') in 0.022287 seconds 
-  Import took 0.027524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.771996 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks.fbx
-  artifactKey: Guid(3ff313d5479e46741a9ef4ac72841bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_blocks.fbx using Guid(3ff313d5479e46741a9ef4ac72841bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dba958eb6560c66593341a63774d78') in 0.068099 seconds 
-  Import took 0.073972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.526722 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_short.fbx
-  artifactKey: Guid(cec5b3bbd0a99b44095b630bc2f7eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cactus_short.fbx using Guid(cec5b3bbd0a99b44095b630bc2f7eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff6c8eabb8b927bda2656c319a4764b') in 0.021494 seconds 
-  Import took 0.026599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.025208 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx
-  artifactKey: Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx using Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebdb8ffb9ca04f7c27cce113581fa52') in 0.023371 seconds 
-  Import took 0.032034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002354 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx
-  artifactKey: Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx using Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebdb8ffb9ca04f7c27cce113581fa52') in 0.021417 seconds 
-  Import took 0.027186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.970417 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx
-  artifactKey: Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx using Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be76d900094c4d033ee7a47a5ef207da') in 0.024673 seconds 
-  Import took 0.029760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055500 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx
-  artifactKey: Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx using Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be76d900094c4d033ee7a47a5ef207da') in 0.017939 seconds 
-  Import took 0.022504 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003477 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.734 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1735ms)
-		BeginReloadAssembly (174ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1484ms)
-			LoadAssemblies (124ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (426ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (618ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (460ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (789ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.5 MB.
-System memory in use after: 144.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3462.
-Total: 8.037100 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.136500 ms MarkObjects: 7.608500 ms  DeleteObjects: 0.025900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 147.978046 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_grass.fbx
-  artifactKey: Guid(19f1f07f05ef47d4f8153640fe40f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_grass.fbx using Guid(19f1f07f05ef47d4f8153640fe40f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ae4cae7454ea18b5b0b5e2efb4e8da') in 0.092093 seconds 
-  Import took 0.097202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028138 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_grass.fbx
-  artifactKey: Guid(19f1f07f05ef47d4f8153640fe40f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_grass.fbx using Guid(19f1f07f05ef47d4f8153640fe40f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ae4cae7454ea18b5b0b5e2efb4e8da') in 0.016778 seconds 
-  Import took 0.021924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.398954 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBend.fbx
-  artifactKey: Guid(28fa6ec8979c9ad41b80a79449e93274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBend.fbx using Guid(28fa6ec8979c9ad41b80a79449e93274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9061b9d91d77150e2092ed9c228fcb0') in 0.032369 seconds 
-  Import took 0.037047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009322 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBend.fbx
-  artifactKey: Guid(28fa6ec8979c9ad41b80a79449e93274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBend.fbx using Guid(28fa6ec8979c9ad41b80a79449e93274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9061b9d91d77150e2092ed9c228fcb0') in 0.052456 seconds 
-  Import took 0.057138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.631165 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBendBank.fbx
-  artifactKey: Guid(596d14365e5a9404ebb23c54d80bdc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathBendBank.fbx using Guid(596d14365e5a9404ebb23c54d80bdc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b087d3f3e218f763c9469337c1133af8') in 0.029735 seconds 
-  Import took 0.034788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.539414 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathCorner.fbx
-  artifactKey: Guid(1e29ffdbdc9159a46be0cbfcea85499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathCorner.fbx using Guid(1e29ffdbdc9159a46be0cbfcea85499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a09980958e424a14ee23576445db49b') in 0.028703 seconds 
-  Import took 0.034545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.846172 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_riverBend.fbx
-  artifactKey: Guid(27893c7c2d8e56e40bf5eb121eef59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_riverBend.fbx using Guid(27893c7c2d8e56e40bf5eb121eef59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a63652402d370e9b6e8aebf5bbebaf0') in 0.063956 seconds 
-  Import took 0.068811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.393119 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathTile.fbx
-  artifactKey: Guid(fe32d7346b074a5488f5acc5802a7ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathTile.fbx using Guid(fe32d7346b074a5488f5acc5802a7ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61a3efc75f955d0268e25846a67beb9') in 0.030335 seconds 
-  Import took 0.035665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.138947 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathStraight.fbx
-  artifactKey: Guid(ab8ba5fe79ac2c44fa621d8b306eba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathStraight.fbx using Guid(ab8ba5fe79ac2c44fa621d8b306eba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176906fab9f9569c20671d0e7d8d972a') in 0.030538 seconds 
-  Import took 0.035644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.631146 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathSplit.fbx
-  artifactKey: Guid(ba7eda25458e74f4c8b136173e68525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_pathSplit.fbx using Guid(ba7eda25458e74f4c8b136173e68525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8b474fc74577198ae6230350449226') in 0.030806 seconds 
-  Import took 0.036638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.872894 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/ground_riverOpen.fbx
-  artifactKey: Guid(42aef620e2213334ea07856eccdca3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/ground_riverOpen.fbx using Guid(42aef620e2213334ea07856eccdca3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea75c9c6f29a360b0fc695ce6e018f3f') in 0.019020 seconds 
-  Import took 0.023894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.439126 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineGroundA.fbx
-  artifactKey: Guid(dc00274a0ac53e34e940bc4ceab9bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineGroundA.fbx using Guid(dc00274a0ac53e34e940bc4ceab9bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b4a9ea62d98acfb8c96a4ee5b78386') in 0.021497 seconds 
-  Import took 0.028265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011122 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineGroundA.fbx
-  artifactKey: Guid(dc00274a0ac53e34e940bc4ceab9bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineGroundA.fbx using Guid(dc00274a0ac53e34e940bc4ceab9bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b4a9ea62d98acfb8c96a4ee5b78386') in 0.029571 seconds 
-  Import took 0.036631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.891127 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineGroundB.fbx
-  artifactKey: Guid(438e2156f35ea934cbac01acc98d981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_pineGroundB.fbx using Guid(438e2156f35ea934cbac01acc98d981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f11c1012213c1244913a497ad80c06c') in 0.016794 seconds 
-  Import took 0.021315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.300420 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/mushroom_tanGroup.fbx
-  artifactKey: Guid(f9223316dc55e7d4eb492727f47eee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/mushroom_tanGroup.fbx using Guid(f9223316dc55e7d4eb492727f47eee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898bb49d178171ea91f3623aeac1e3b6') in 0.083500 seconds 
-  Import took 0.104852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.728777 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/mushroom_redGroup.fbx
-  artifactKey: Guid(059b9784f7030c84f9f95498fc45f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/mushroom_redGroup.fbx using Guid(059b9784f7030c84f9f95498fc45f49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93a5532edee198a8fc3cfdb403eb0e5') in 0.059478 seconds 
-  Import took 0.064421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.479997 seconds.
-  path: Assets/_Survival Crossing/Animations/Characters/Player Animator.controller
-  artifactKey: Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Animations/Characters/Player Animator.controller using Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c721dcf27976f48da63c238b9e24c3') in 0.008206 seconds 
-  Import took 0.013048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.818626 seconds.
-  path: Assets/_Survival Crossing/Animations/Characters/jump.fbx
-  artifactKey: Guid(9a21dc45af026604a82ac46acd23828d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Animations/Characters/jump.fbx using Guid(9a21dc45af026604a82ac46acd23828d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1e4ba890bba0f5524fb48b744bdd0') in 0.012511 seconds 
-  Import took 0.018164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.584923 seconds.
-  path: Assets/_Survival Crossing/Animations/Characters/run.fbx
-  artifactKey: Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Animations/Characters/run.fbx using Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fa00d226aed42feb5512e040637dea') in 0.010560 seconds 
-  Import took 0.015419 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003308 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.701 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1702ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1421ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (437ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (632ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (158ms)
-				ProcessInitializeOnLoadAttributes (445ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Validating Project structure ... 0.006383 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.007473 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.6 MB.
-System memory in use after: 144.8 MB.
+Unloading 2989 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.0 MB.
+System memory in use after: 250.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3465.
-Total: 5.228100 ms (FindLiveObjects: 1.391700 ms CreateObjectMapping: 0.187600 ms MarkObjects: 3.625100 ms  DeleteObjects: 0.022200 ms)
+Unloading 185 unused Assets to reduce memory usage. Loaded Objects now: 3448.
+Total: 5.445524 ms (FindLiveObjects: 0.379706 ms CreateObjectMapping: 0.136407 ms MarkObjects: 3.976899 ms  DeleteObjects: 0.950730 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/_Survival Crossing/Scenes/Main.unity
+  artifactKey: Guid(55e2149e48bde7e4786c5b14ee2e43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Scenes/Main.unity using Guid(55e2149e48bde7e4786c5b14ee2e43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0118b770810d684fd5537e5e0ed4c6fb') in 0.021168 seconds 
+  Import took 0.027444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/_Survival Crossing/Scenes
+  artifactKey: Guid(f39d8be01ec845b46a985408a62a3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Scenes using Guid(f39d8be01ec845b46a985408a62a3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9b9855e0ba6d0d87f590962591ebf7') in 0.001055 seconds 
+  Import took 0.006641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/_Survival Crossing/Materials
+  artifactKey: Guid(6c8dbdefa6f6ce94484667e2cd40a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Materials using Guid(6c8dbdefa6f6ce94484667e2cd40a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d42c55d2d3a3d69404b981f7a81df1') in 0.001243 seconds 
+  Import took 0.007057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/_Survival Crossing/Prefabs
+  artifactKey: Guid(2fa2abebcda985141969daf9c3ef8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Prefabs using Guid(2fa2abebcda985141969daf9c3ef8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbe69eda527173467ed348b6a3c7e9e') in 0.001145 seconds 
+  Import took 0.006551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/_Survival Crossing/Models
+  artifactKey: Guid(ca21cf6b43c24a94a89c4a9b3927f83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Models using Guid(ca21cf6b43c24a94a89c4a9b3927f83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903c817abc359c604d740f2a702be239') in 0.001712 seconds 
+  Import took 0.009569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_Survival Crossing
+  artifactKey: Guid(8e61f9b5dbcf01b43b4fae97ae8c01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing using Guid(8e61f9b5dbcf01b43b4fae97ae8c01cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786298eaa7747c041c79346f15767bec') in 0.001263 seconds 
+  Import took 0.007319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_Survival Crossing/Animations
+  artifactKey: Guid(09f5a06b83745ba4b99800cb329386d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations using Guid(09f5a06b83745ba4b99800cb329386d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4361332c42de5e94af7312b090f3c2e') in 0.001102 seconds 
+  Import took 0.006673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.573719 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters
+  artifactKey: Guid(2904a96136df1b547992b24676e9b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters using Guid(2904a96136df1b547992b24676e9b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f26c0fb261486ed5c8de530c1a44b1') in 0.001157 seconds 
+  Import took 0.007060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.665681 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/idle.fbx
+  artifactKey: Guid(86a1903d4d55f514eba79f78c733e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/idle.fbx using Guid(86a1903d4d55f514eba79f78c733e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2d9e79f82163f9f3070be47e5e2300') in 0.489514 seconds 
+  Import took 0.496106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082368 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/Player Animator.controller
+  artifactKey: Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/Player Animator.controller using Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b4be42cc523ffd207a0d21ce1b852') in 0.302763 seconds 
+  Import took 0.308995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.917704 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/jump.fbx
+  artifactKey: Guid(9a21dc45af026604a82ac46acd23828d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/jump.fbx using Guid(9a21dc45af026604a82ac46acd23828d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2bff92f3ff36acc046d85fb0d82f50') in 0.013629 seconds 
+  Import took 0.019543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.221252 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/Player Animator.controller
+  artifactKey: Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/Player Animator.controller using Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b86b476c7481c05aa0fe7540fe2788') in 0.014460 seconds 
+  Import took 0.020597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.349723 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/run.fbx
+  artifactKey: Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/run.fbx using Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faad37b08e65eecd67ea641d1840509d') in 0.014490 seconds 
+  Import took 0.021054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001846 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/run.fbx
+  artifactKey: Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/run.fbx using Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faad37b08e65eecd67ea641d1840509d') in 0.013295 seconds 
+  Import took 0.019352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.994679 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/Root_Run.anim
+  artifactKey: Guid(587292ae1b8a1409b8c6c7a1bbaa93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/Root_Run.anim using Guid(587292ae1b8a1409b8c6c7a1bbaa93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0114e5febd5ca25fd93a05f2b698739') in 0.200859 seconds 
+  Import took 0.207222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.814554 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/Root_Jump.anim
+  artifactKey: Guid(f9f114f3249de45c2ab8504c8bf20f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/Root_Jump.anim using Guid(f9f114f3249de45c2ab8504c8bf20f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95258e6b95ed8e2c3cdb866aaec85b3') in 0.008575 seconds 
+  Import took 0.015329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003477 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/Root_Jump.anim
+  artifactKey: Guid(f9f114f3249de45c2ab8504c8bf20f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/Root_Jump.anim using Guid(f9f114f3249de45c2ab8504c8bf20f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95258e6b95ed8e2c3cdb866aaec85b3') in 0.008532 seconds 
+  Import took 0.014816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.495622 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/Root_Idle.anim
+  artifactKey: Guid(bc396cbe1e58f47d28b5c0a85b582e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/Root_Idle.anim using Guid(bc396cbe1e58f47d28b5c0a85b582e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154756d2d86c76011a56542da3aa2608') in 0.009897 seconds 
+  Import took 0.016186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.549647 seconds.
+  path: Assets/_Survival Crossing/Animations/Characters/Player Animator.controller
+  artifactKey: Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Animations/Characters/Player Animator.controller using Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2644e0a760502748e9d165082bb7e494') in 0.020344 seconds 
+  Import took 0.026405 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003577 seconds.
+Registered in 0.003461 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.610 seconds
+- Completed reload, in  2.041 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1614ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (2041ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1378ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (1750ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (598ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (719ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (395ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (501ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.6 MB.
-System memory in use after: 144.8 MB.
+System memory in use before: 253.3 MB.
+System memory in use after: 253.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3467.
-Total: 3.744600 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.132800 ms MarkObjects: 3.322200 ms  DeleteObjects: 0.017700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3462.
+Total: 4.652233 ms (FindLiveObjects: 0.339123 ms CreateObjectMapping: 0.130458 ms MarkObjects: 4.156622 ms  DeleteObjects: 0.024381 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 136.402212 seconds.
-  path: Assets/_Survival Crossing/Animations/Characters/Player Animator.controller
-  artifactKey: Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Animations/Characters/Player Animator.controller using Guid(77616c087bb0ba24fa20d0c13d638c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e34e2990c7601cf6788a0c61118d52') in 0.023713 seconds 
-  Import took 0.029942 seconds .
+  Time since last request: 8.308693 seconds.
+  path: Assets/_Survival Crossing/Scripts
+  artifactKey: Guid(0b4a7233fb891394f94282ff165d8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Scripts using Guid(0b4a7233fb891394f94282ff165d8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707fec6c05cf5f5bde09000cd614b187') in 0.006056 seconds 
+  Import took 0.011765 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 270.852667 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6b59a2b401ba9de557beb65d7d884f') in 0.165992 seconds 
-  Import took 0.172861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.482625 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8ff4f15734544b01b68c314aa39d0f') in 0.034608 seconds 
-  Import took 0.040056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.055811 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36ce5434cee49b691dcc2ff8f991566') in 0.032491 seconds 
-  Import took 0.037791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.684192 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5993eba69e2a3ba883f29346afb406') in 0.028133 seconds 
-  Import took 0.033293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.344860 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6238f7b685338d93ccdc11429c6557e5') in 0.052129 seconds 
-  Import took 0.056899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.054941 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e9e9a97909261151ced3acdbfca4aa') in 0.036514 seconds 
-  Import took 0.043339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5829.120318 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8481fbab5d82373510b925a8c49f8a') in 0.081436 seconds 
-  Import took 0.087037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.096275 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d949c8e7c56af923464b0416908d8a') in 0.031675 seconds 
-  Import took 0.036877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.754904 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55885fb22180738289b6ebc478f786a') in 0.036187 seconds 
-  Import took 0.040976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.548073 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium 1.fbx
-  artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium 1.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fe1d2dbffeb6d23f16f4e25c527b3b') in 0.032034 seconds 
-  Import took 0.037013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007242 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium 1.fbx
-  artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium 1.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fe1d2dbffeb6d23f16f4e25c527b3b') in 0.031602 seconds 
-  Import took 0.036545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.602899 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx
-  artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9a4fcd9bdbbd0213c51bbb43719d68') in 0.042612 seconds 
-  Import took 0.051398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.200839 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx
-  artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31db0a819ff05cac827751173d78906c') in 0.030499 seconds 
-  Import took 0.035248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.452770 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/characterMedium.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b787f345f9ddae86d7b3cbd5ea618497') in 0.032219 seconds 
-  Import took 0.037698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.825665 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx
-  artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348db2c1add70ec7aed9f8e08e76c60e') in 0.039750 seconds 
-  Import took 0.044665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.557124 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx
-  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeba165acab283d348ccfaec2bd0b49e') in 0.029987 seconds 
-  Import took 0.035869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.906759 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx
-  artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9f720b85e4421d4ce84ea5d5df68aa') in 0.031985 seconds 
-  Import took 0.038244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004707 seconds.
-  path: Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx
-  artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9f720b85e4421d4ce84ea5d5df68aa') in 0.029379 seconds 
-  Import took 0.035490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.747573 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Character White Fat.prefab
-  artifactKey: Guid(93de01b06f68de84bacde9e07930320d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Character White Fat.prefab using Guid(93de01b06f68de84bacde9e07930320d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459efa23f39859904eb0a1543d499fe7') in 0.029646 seconds 
-  Import took 0.035588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.248493 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/tree_tall_fall.fbx
-  artifactKey: Guid(26c56ee51ee149846bde9f529372ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/tree_tall_fall.fbx using Guid(26c56ee51ee149846bde9f529372ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b6ea45d5a947bbd7b69e39595b9fe7') in 0.049366 seconds 
-  Import took 0.054514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.336969 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx
-  artifactKey: Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/bed.fbx using Guid(a42e9d010edb7fb4eb00e870dc116dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ee0fd601c476d2431ad09901b1cfb8') in 0.026851 seconds 
-  Import took 0.032160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.502813 seconds.
+  Time since last request: 2.477744 seconds.
   path: Assets/_Survival Crossing/Prefabs/Characters
   artifactKey: Guid(f9d013e88d61886458b04730992a08e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Characters using Guid(f9d013e88d61886458b04730992a08e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a1c477a184a6aa63945635064c3197') in 0.001548 seconds 
-  Import took 0.006681 seconds .
+Start importing Assets/_Survival Crossing/Prefabs/Characters using Guid(f9d013e88d61886458b04730992a08e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a1c477a184a6aa63945635064c3197') in 0.007205 seconds 
+  Import took 0.017427 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 147.371633 seconds.
+  Time since last request: 0.002069 seconds.
+  path: Assets/_Survival Crossing/Prefabs/Characters
+  artifactKey: Guid(f9d013e88d61886458b04730992a08e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Prefabs/Characters using Guid(f9d013e88d61886458b04730992a08e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a1c477a184a6aa63945635064c3197') in 0.001585 seconds 
+  Import took 0.008724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.843250 seconds.
+  path: Assets/_Survival Crossing/Models/Characters
+  artifactKey: Guid(529c3301fcf4b2b418bbb3547e30c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Models/Characters using Guid(529c3301fcf4b2b418bbb3547e30c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e232dd60f90824d5f0a5ce6097ecd6bb') in 0.006897 seconds 
+  Import took 0.012955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.901294 seconds.
+  path: Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx
+  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Survival Crossing/Models/Characters/Character White Fat.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bb6619de72968cd0ceb6b0e9704a8e') in 0.485929 seconds 
+  Import took 0.491906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093554 seconds.
   path: Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx
   artifactKey: Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6247d00266422ba67bd6ae660d56873') in 0.034452 seconds 
-  Import took 0.040706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.407189 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx
-  artifactKey: Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx using Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72b4a13b476227ac9eeecf84a1b6533') in 0.025514 seconds 
-  Import took 0.047894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042538 seconds.
-  path: Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx
-  artifactKey: Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx using Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72b4a13b476227ac9eeecf84a1b6533') in 0.042006 seconds 
-  Import took 0.048130 seconds .
+Start importing Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee535ff8225756567d39f7b68d84c19') in 0.049824 seconds 
+  Import took 0.055765 seconds .
 
