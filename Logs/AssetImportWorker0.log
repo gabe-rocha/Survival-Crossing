@@ -1806,3 +1806,4 @@ Received Import Request.
 Start importing Assets/_Survival Crossing/Prefabs/Nature Kit/cliff_cave_rock.fbx using Guid(a418aa851a6852e42b8b2f1825a6cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72b4a13b476227ac9eeecf84a1b6533') in 0.042006 seconds 
   Import took 0.048130 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
