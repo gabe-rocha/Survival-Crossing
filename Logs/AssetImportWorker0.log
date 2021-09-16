@@ -412,3 +412,4 @@ Received Import Request.
 Start importing Assets/_Survival Crossing/Models/Characters/Character White Thin.fbx using Guid(654c47e12c90c624fa8f4215a5f1457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee535ff8225756567d39f7b68d84c19') in 0.049824 seconds 
   Import took 0.055765 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
